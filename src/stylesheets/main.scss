@@ -1,0 +1,15 @@
+@import 'base/all';
+@import 'components/all';
+
+body {
+  background: linear-gradient(to left, #136a8a , #267871);
+  font-family: 'Source Sans Pro', sans-serif;
+  text-rendering: optimizeLegibility;
+  color: $white;
+  font-weight: 300;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+}

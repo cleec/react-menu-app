@@ -1,0 +1,23 @@
+.menu-container {
+  background: $teal;
+  width: 300px;
+  margin: auto;
+  padding: 18px;
+  border-radius: 6px;
+  box-shadow: 12px 20px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+.menu-category {
+  &--coffee {
+    background: $blueLight;
+  }
+  &--sweet {
+    background: $blueDark;
+  }
+  &--food {
+    background: $purpleLight;
+  }
+  &--drink {
+    background: $purpleDark;
+  }
+}
